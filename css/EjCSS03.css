@@ -1,0 +1,44 @@
+.figure1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.figure2{
+    width: 100%;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.figure3{
+    border: solid 1px red;
+    width: 100%;
+    margin: 10px;
+}
+
+.figure4{
+    width: 50%;
+    height: 100px;
+    border: rgb(65, 197, 157) 2px solid;
+    border-radius: 8px;
+}
+
+.figure5{
+    border: 1px solid black;
+    padding-left: 20px;
+}
+
+.figure6{
+    border:1px black solid;
+    margin-left: 20px;
+
+}
+
+.figure7{
+    width: 100px;
+    height: 100px;
+    border: solid 3px rgb(81, 157, 224);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto;
+}
