@@ -1,0 +1,19 @@
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 10px;
+}
+
+.caja:nth-of-type(1){
+    float: left;
+}
+
+.caja:nth-of-type(2){
+    float: right;
+}
+
+p:nth-of-type(3){
+    display: inline-block;
+}
