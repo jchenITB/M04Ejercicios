@@ -8,7 +8,14 @@ body, html{
 
 span, p, a{
     font-family: 'Karla', sans-serif;
+    text-align: justify;
 }
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0;
+}
+
 .titleBox{
     background-color: #57c2d9;
     display: flex;
@@ -17,7 +24,6 @@ span, p, a{
 }
 
 .titleBox h1{
-    font-family: 'Alfa Slab One', cursive;
     padding: 15px 5px 0 5px;
     width: 100%;
     margin: 10px;
@@ -45,10 +51,95 @@ nav li a {
     text-decoration: none;
     color: #59c5da;
 }
+
 .container{
     display: flex;
+    flex-wrap: wrap;
+}
+
+main{
+    width: 75%;
 }
 
 aside{
     width: 25%;
+}
+
+h2{
+    font-size: 30px;
+}
+
+section:nth-of-type(1){
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+section:nth-of-type(2){
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+main article{
+    background-color: #ffffff;
+    margin: 10px 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 10px;
+}
+
+hr{
+    height: 1px;
+    background-color: #E3E3E3;
+    border: none;
+}
+
+.article_head{
+    background-color: #d9e87a;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 15px;
+}
+
+.article_head span {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px;
+}
+
+.article_pie{
+    font-style: italic;
+    display: flex;
+    justify-content: right;
+    padding-right: 20px;
+}
+
+.sec2_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.sec2_container article{
+    width: 48%;
+    padding: 5px;
+}
+
+aside{
+    background-color: #f5f5f5;
+}
+
+.aside_container{
+    background-color: #eae68c;
+    padding: 15px;
+}
+
+.aside_container article{
+    margin: 30px 0;
+}
+
+footer{
+    background-color: #57c2d9;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
 }
